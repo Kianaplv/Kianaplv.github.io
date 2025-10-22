@@ -161,8 +161,8 @@ header_pages:
 
 # Page default value
 # defaults:
-   home:
-     heading: "Portfolio"
+#   home:
+#     heading: "Portfolio"
 #     subheading: "Your awesome subheading"
 #    banner: ""
 
