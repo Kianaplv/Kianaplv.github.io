@@ -4,22 +4,22 @@
 
 // Default theme colors
 $theme-colors: (
-  "coolblack": #090a0b,
+  "coolblack": #1f242a, ///bg
   "spacegrey": #374151, ///text
-  "snowwhite": #f3f4f6,
+  "snowwhite": #fffff,
 );
 
 // Default brand colors
 $brand-colors: (
-  "orangered": #6366f1, ///links
-  "greatgold": #ffecb2, ///highlight
-  "greenblue": #6b7280, //text-sec
+  "purpelblue": #6366f1, ///links
+  "yellow": #ffecb2, ///highlight
+  "graypurpel": #6b7280, //text-sec
 );
 
 $theme-name: "{{ site.theme_color }}";
 $brand-name: "{{ site.brand_color }}";
 $theme-color: map-get($theme-colors, "snowwhite");
-$brand-color: map-get($brand-colors, "orangered");
+$brand-color: map-get($brand-colors, "purpelblue");
 
 @if map-has-key($theme-colors, $theme-name) {
   $theme-color: map-get($theme-colors, $theme-name);
