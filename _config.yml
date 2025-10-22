@@ -104,11 +104,11 @@ yat:
 
 # You can choose a theme color
 # Default theme colors as below:
-coolblack: "#1f242a" //bg
+#coolblack: "#1f242a" //bg
 # spacegrey: #353535
-snowwhite: "#ffffff"
+#snowwhite: "#ffffff"
 #
-theme_color: snowwhite
+#heme_color: snowwhite
 #
 # Custom color as below:
 # theme_color: "#882250"
