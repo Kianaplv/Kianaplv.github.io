@@ -4,9 +4,9 @@
 
 // Default theme colors
 $theme-colors: (
-  "coolblack": #1f242a, ///bg
+  "coolblack": #adb5bd, ///text
   "spacegrey": #374151, ///text
-  "snowwhite": #fffff,
+  "snowwhite": #ffffff,
 );
 
 // Default brand colors
@@ -30,16 +30,16 @@ $brand-color: map-get($brand-colors, "purpelblue");
 @if map-has-key($brand-colors, $brand-name) {
   $brand-color: map-get($brand-colors, $brand-name);
 } @else if str-index($brand-name, "#") == 1 {
-  $brand-color: {{ site.brand_color | default: '#ff5100' }};
+  $brand-color: {{ site.brand_color | default: '#91a7ff' }};
 }
 
 $content-width: {{ site.content_width | default: '920px' }};
 
 // Click to top theme
 $click-to-top-light-background-color: {{ site.click_to_top.light.background_color | default: "white" }};
-$click-to-top-light-color: {{ site.click_to_top.light.color | default: "#454545" }};
-$click-to-top-dark-background-color: {{ site.click_to_top.dark.background_color | default: "#34323d" }};
-$click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
+$click-to-top-light-color: {{ site.click_to_top.light.color | default: "#adb5bd" }};
+$click-to-top-dark-background-color: {{ site.click_to_top.dark.background_color | default: "#323945" }};
+$click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#1f242a" }};
 
 // Selection styles
 $selection-color: unquote("{{ site.selection.color }}");
