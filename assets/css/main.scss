@@ -5,15 +5,15 @@
 // Default theme colors
 $theme-colors: (
   "coolblack": #090a0b,
-  "spacegrey": #353535,
-  "snowwhite": #ffffff,
+  "spacegrey": #374151, ///text
+  "snowwhite": #f3f4f6,
 );
 
 // Default brand colors
 $brand-colors: (
-  "orangered": #ff5100,
-  "greatgold": #f2cb05,
-  "greenblue": #389092,
+  "orangered": #6366f1, ///links
+  "greatgold": #ffecb2, ///highlight
+  "greenblue": #6b7280, //text-sec
 );
 
 $theme-name: "{{ site.theme_color }}";
