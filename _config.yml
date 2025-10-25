@@ -173,8 +173,8 @@ banner:
 #   start_at: 0             # Video start time
 #   image: null             # Image banner source
 #   opacity: 1.0            # Banner opacity (100% is 1.0)
-   background: "#f3f4f6"  # Banner background (Could be a image)
-   height: "500px"         # Banner default height
+   background: "#1f242a"  # Banner background (Could be a image)
+   height: "300px"         # Banner default height
 #   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
