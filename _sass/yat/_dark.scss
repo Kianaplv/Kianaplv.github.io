@@ -1,5 +1,5 @@
-$dark-background-color: #0e0e0e !default;
-$dark-text-color: #b0b0b0 !default;
+$dark-background-color: 1f242a !default;
+$dark-text-color: #adb5bd !default;
 
 html[data-theme="dark"]  {
   &[data-scroll-status='top'] {
@@ -15,7 +15,7 @@ html[data-theme="dark"]  {
 
     footer.site-footer {
       .site-footer-inner {
-        border-top: solid 1px #2f2f2f !important;
+        border-top: solid 1px #323945 !important;
         transition: 0s;
       }
     }
@@ -28,7 +28,7 @@ html[data-theme="dark"]  {
 
   *:not(pre) > code {
     color: $dark-text-color;
-    background-color: #454545;
+    background-color: #adb5bd;
   }
 
   blockquote {
@@ -48,7 +48,7 @@ html[data-theme="dark"]  {
   }
 
   .site-header {
-    background-color: #090909;
+    background-color: #1f242a;
 
     .site-brand {
       .site-brand-inner {
