@@ -105,7 +105,7 @@ header_transparent: true
 # You can choose a theme color
  Default theme colors as below:
   coolblack: "#1f242a" //bg
-  spacegrey: #353535
+  spacegrey: "#f3f4f6"
   snowwhite: "#ffffff"
 #
  theme_color: coolblack
@@ -208,11 +208,11 @@ header_pages:
 # Click to top settings
 click_to_top:
   light:
-     background_color: "white"
-     color: "#323945"
-   dark:
-     background_color: "#1f242a"
-     color: "#323945"
+    background_color: "white"
+    color: "#323945"
+  dark:
+    background_color: "#1f242a"
+    color: "#323945"
 
 # Disqus comments
 # disqus:
