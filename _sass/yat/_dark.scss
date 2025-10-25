@@ -28,7 +28,7 @@ html[data-theme="dark"]  {
 
   *:not(pre) > code {
     color: $dark-text-color;
-    background-color: #adb5bd;
+    background-color: #ffffff;
   }
 
   blockquote {
@@ -106,7 +106,7 @@ html[data-theme="dark"]  {
     }
 
     .post-excerpt {
-      color: #adb5bd;
+      color: $grey-color;
     }
 
     .post-list {
