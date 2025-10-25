@@ -11,7 +11,7 @@ $theme-colors: (
 
 // Default brand colors
 $brand-colors: (
-  "purpelblue": #6366f1, ///links
+  "purpleblue": #6366f1, ///links
   "yellow": #ffecb2, ///highlight
   "graypurpel": #6b7280, //text-sec
 );
@@ -19,7 +19,7 @@ $brand-colors: (
 $theme-name: "{{ site.theme_color }}";
 $brand-name: "{{ site.brand_color }}";
 $theme-color: map-get($theme-colors, "snowwhite");
-$brand-color: map-get($brand-colors, "purpelblue");
+$brand-color: map-get($brand-colors, "purpleblue");
 
 @if map-has-key($theme-colors, $theme-name) {
   $theme-color: map-get($theme-colors, $theme-name);
