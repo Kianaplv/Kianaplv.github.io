@@ -104,9 +104,9 @@ header_transparent: true
 
 # You can choose a theme color
 # Default theme colors:
- coolblack: "#1f242a"  # background
- spacegrey: "#353535"
- snowwhite: "#ffffff"
+# coolblack: "#1f242a"  # background
+# spacegrey: "#353535"
+# snowwhite: "#ffffff"
 
 # Active theme color (your site’s main background color)
 theme_color: "#1f242a"
@@ -166,7 +166,7 @@ header_pages:
 # Banner default settings
 # These banner settings are for global banner default, but you can also
 # config it by the front matter for one specific post
- banner:
+banner:
 #   video: null             # Video banner source
 #   loop: true              # Video loop
 #   volume: 0               # Video volume (100% is 1.0)
