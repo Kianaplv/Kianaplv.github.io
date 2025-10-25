@@ -109,7 +109,7 @@ header_transparent: false
 # snowwhite: "#ffffff"
 
 # Active theme color (your site’s main background color)
-theme_color: "#1f242a"
+theme_color: "coolblack"
 
 
 # Default brand colors:
