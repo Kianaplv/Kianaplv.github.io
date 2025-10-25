@@ -1,4 +1,4 @@
-$dark-background-color: 1f242a !default;
+$dark-background-color: #1f242a !default;
 $dark-text-color: #adb5bd !default;
 
 html[data-theme="dark"]  {
@@ -85,7 +85,7 @@ html[data-theme="dark"]  {
 
   .site-footer {
     color: #fff;
-    background-color: #000;
+    background-color: #323945;
   }
 
   .left-vsplit:before {
