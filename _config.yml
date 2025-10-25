@@ -122,9 +122,9 @@ theme_color: "#1f242a"
 brand_color: "#91a7ff"
 
 # You can custom selection style
- selection:
-   color: "#ffecb2"
-#   background_color: "yellow"
+selection:
+  color: "#ffecb2"
+#  background_color: "yellow"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
